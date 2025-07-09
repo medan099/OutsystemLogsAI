@@ -3,6 +3,7 @@
 This project demonstrates how to build a Retrieval-Augmented Generation (RAG) system to assist developers with OutSystems-related issues, using open-source LLMs (Mistral and Phi-3) via Ollama.
 
 🚀 Features
+
 ✅ Custom dataset of OutSystems problems & solutions (from real logs from outsystems forums)
 
 ✅ Preprocessing scripts (cleaning, base64 conversion, web scraping)
