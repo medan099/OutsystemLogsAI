@@ -1,4 +1,5 @@
-🧠 OutsystemLogsAI
+**🧠 OutsystemLogsAI**
+
 This project demonstrates how to build a Retrieval-Augmented Generation (RAG) system to assist developers with OutSystems-related issues, using open-source LLMs (Mistral and Phi-3) via Ollama.
 
 🚀 Features
