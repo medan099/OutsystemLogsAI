@@ -50,9 +50,11 @@ Note: You can directly run the notebooks using this dataset — it's already pre
 Make sure to download and place it in the appropriate location in the repo.
 
 🧪 Notebooks
-Notebook                                              	Description
-Generating-Model-With-RAG-Using-Mistral.ipynb	          Implements RAG pipeline using Mistral via Ollama
-Generating-Model-With-RAG-Using-Phi3.ipynb	            Implements RAG pipeline using Phi-3 via Ollama
+| Notebook                                        | Description                                      |
+| ----------------------------------------------- | ------------------------------------------------ |
+| `Generating-Model-With-RAG-Using-Mistral.ipynb` | Implements RAG pipeline using Mistral via Ollama |
+| `Generating-Model-With-RAG-Using-Phi3.ipynb`    | Implements RAG pipeline using Phi-3 via Ollama   |
+
 
 💡 Use Case
 This system can be used by OutSystems developers and support engineers to:
