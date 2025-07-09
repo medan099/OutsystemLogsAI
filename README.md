@@ -12,15 +12,10 @@ This project demonstrates how to build a Retrieval-Augmented Generation (RAG) sy
 📦 Requirements
 Install the required dependencies:
 
-bash
-Copier
-Modifier
 pip install langchain faiss-cpu transformers
 To use Ollama LLMs:
 
-bash
-Copier
-Modifier
+
 curl -fsSL https://ollama.com/install.sh | sh
 ollama run mistral
 ollama run phi3
@@ -40,9 +35,9 @@ Note: You can directly run the notebooks using this dataset — it's already pre
 Make sure to download and place it in the appropriate location in the repo.
 
 🧪 Notebooks
-Notebook	Description
-Generating-Model-With-RAG-Using-Mistral.ipynb	Implements RAG pipeline using Mistral via Ollama
-Generating-Model-With-RAG-Using-Phi3.ipynb	Implements RAG pipeline using Phi-3 via Ollama
+Notebook                                              	Description
+Generating-Model-With-RAG-Using-Mistral.ipynb	          Implements RAG pipeline using Mistral via Ollama
+Generating-Model-With-RAG-Using-Phi3.ipynb	            Implements RAG pipeline using Phi-3 via Ollama
 
 💡 Use Case
 This system can be used by OutSystems developers and support engineers to:
@@ -63,9 +58,9 @@ RAG retrieves the most relevant documents and provides a structured answer based
 The LLM falls back to a general reasoning mode and generates a custom solution using its own knowledge base.
 
 📊 Model Comparison
-Model	Accuracy	Recommendation
-Phi-3	86.67%	✅ Recommended
-Mistral	75.83%	Optional
+Model	              Accuracy	            Recommendation
+Phi-3	              86.67%	              ✅ Recommended
+Mistral	            75.83%	               Optional
 
 You can choose either model by switching a single parameter in the notebook.
 However, Phi-3 is recommended for better accuracy and reasoning in technical cases.
