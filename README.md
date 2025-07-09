@@ -4,10 +4,15 @@ This project demonstrates how to build a Retrieval-Augmented Generation (RAG) sy
 
 🚀 Features
 ✅ Custom dataset of OutSystems problems & solutions (from real logs from outsystems forums)
+
 ✅ Preprocessing scripts (cleaning, base64 conversion, web scraping)
+
 ✅ Image screenshots from OutSystems forums were automatically converted into descriptive text using Google Gemini LLM, enriching the dataset
+
 ✅ Smart document ranking with keyword & screenshot metadata
+
 ✅ LangChain-based RAG setup
+
 ✅ Works with either Mistral or Phi-3 (via Ollama)
 
 📦 Requirements
