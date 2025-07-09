@@ -20,16 +20,16 @@ This project demonstrates how to build a Retrieval-Augmented Generation (RAG) sy
 
 Install the required dependencies:
 
-pip install langchain faiss-cpu transformers
+-pip install langchain faiss-cpu transformers
 
 To use Ollama LLMs:
 
 
-curl -fsSL https://ollama.com/install.sh | sh
+-curl -fsSL https://ollama.com/install.sh | sh
 
-ollama run mistral
+-ollama run mistral
 
-ollama run phi3
+-ollama run phi3
 
 📊 Dataset
 
