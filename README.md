@@ -6,7 +6,7 @@ This project demonstrates how to build a Retrieval-Augmented Generation (RAG) sy
 
 ✅ Custom dataset of OutSystems problems & solutions (from real logs from outsystems forums)
 
-✅ Preprocessing scripts (cleaning, base64 conversion, web scraping)
+✅ Preprocessing scripts (web scraping , base64 conversion, cleaning)
 
 ✅ Image screenshots from OutSystems forums were automatically converted into descriptive text using Google Gemini LLM, enriching the dataset
 
