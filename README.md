@@ -79,9 +79,11 @@ RAG retrieves the most relevant documents and provides a structured answer based
 The LLM falls back to a general reasoning mode and generates a custom solution using its own knowledge base.
 
 📊 Model Comparison
-Model	              Accuracy	            Recommendation
-Phi-3	              86.67%	              ✅ Recommended
-Mistral	            75.83%	               Optional
+| Model   | Accuracy | Recommendation |
+| ------- | -------- | -------------- |
+| Phi-3   | 86.67%   | ✅ Recommended  |
+| Mistral | 75.83%   | Optional       |
+
 
 You can choose either model by switching a single parameter in the notebook.
 However, Phi-3 is recommended for better accuracy and reasoning in technical cases.
