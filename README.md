@@ -35,11 +35,11 @@ To use Ollama LLMs:
 
 The dataset is enriched with real-world problems and solutions from OutSystems forums. It includes:
 
-Cleaned text from user posts
+-Cleaned text from user posts
 
-Automatically generated image descriptions (from forum screenshots)
+-Automatically generated image descriptions (from forum screenshots)
 
-Keyword-based metadata (e.g., technical keywords, error detection)
+-Keyword-based metadata (e.g., technical keywords, error detection)
 
 📥 Available on Kaggle:
 
@@ -57,11 +57,11 @@ Generating-Model-With-RAG-Using-Phi3.ipynb	            Implements RAG pipeline u
 💡 Use Case
 This system can be used by OutSystems developers and support engineers to:
 
-Understand errors from logs
+-Understand errors from logs
 
-Get fast, structured troubleshooting advice
+-Get fast, structured troubleshooting advice
 
-Leverage past support cases to avoid reinventing the wheel
+-Leverage past support cases to avoid reinventing the wheel
 
 🧠 How It Works
 
