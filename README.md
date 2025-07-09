@@ -57,6 +57,7 @@ Make sure to download and place it in the appropriate location in the repo.
 
 
 💡 Use Case
+
 This system can be used by OutSystems developers and support engineers to:
 
 -Understand errors from logs
