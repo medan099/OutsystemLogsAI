@@ -1,8 +1,8 @@
-**🧠 OutsystemLogsAI**
+# 🧠 OutsystemLogsAI 
 
 This project demonstrates how to build a Retrieval-Augmented Generation (RAG) system to assist developers with OutSystems-related issues, using open-source LLMs (Mistral and Phi-3) via Ollama.
 
-🚀 Features
+## 🚀 Features  
 
 ✅ Custom dataset of OutSystems problems & solutions (from real logs from outsystems forums)
 
@@ -16,7 +16,7 @@ This project demonstrates how to build a Retrieval-Augmented Generation (RAG) sy
 
 ✅ Works with either Mistral or Phi-3 (via Ollama)
 
-📦 Requirements
+## 📦 Requirements
 
 Install the required dependencies:
 
@@ -31,7 +31,7 @@ To use Ollama LLMs:
 
 -ollama run phi3
 
-📊 Dataset
+## 📊 Dataset
 
 The dataset is enriched with real-world problems and solutions from OutSystems forums. It includes:
 
@@ -49,14 +49,15 @@ Note: You can directly run the notebooks using this dataset — it's already pre
 
 Make sure to download and place it in the appropriate location in the repo.
 
-🧪 Notebooks
+## 🧪 Notebooks
+
 | Notebook                                        | Description                                      |
 | ----------------------------------------------- | ------------------------------------------------ |
 | `Generating-Model-With-RAG-Using-Mistral.ipynb` | Implements RAG pipeline using Mistral via Ollama |
 | `Generating-Model-With-RAG-Using-Phi3.ipynb`    | Implements RAG pipeline using Phi-3 via Ollama   |
 
 
-💡 Use Case
+## 💡 Use Case
 
 This system can be used by OutSystems developers and support engineers to:
 
@@ -66,7 +67,7 @@ This system can be used by OutSystems developers and support engineers to:
 
 -Leverage past support cases to avoid reinventing the wheel
 
-🧠 How It Works
+## 🧠 How It Works
 
 The system follows dual logic:
 
@@ -78,7 +79,7 @@ RAG retrieves the most relevant documents and provides a structured answer based
 
 The LLM falls back to a general reasoning mode and generates a custom solution using its own knowledge base.
 
-📊 Model Comparison
+## 📊 Model Comparison
 | Model   | Accuracy | Recommendation |
 | ------- | -------- | -------------- |
 | Phi-3   | 86.67%   | ✅ Recommended  |
